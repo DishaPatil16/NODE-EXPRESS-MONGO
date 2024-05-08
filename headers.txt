@@ -1,0 +1,7 @@
+http headers
+network packets are generated for client server api req
+info on these packets is headers
+
+Http Headers : part of api req and res , it is meta-data of api req and res
+
+headers carry info for req and res boby

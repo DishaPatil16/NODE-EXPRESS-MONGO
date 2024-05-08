@@ -1,0 +1,11 @@
+middleware runs on every req,res cycle
+middleware function are function which have access to req object , res objectand next middleware function
+middleware function can end req,res cycle or if everything is good then can call next middleware
+
+task of middleware function:
+1. execute any code
+2. change req,res object
+3. end req-res cycle
+4. call next middleware
+
+middleware are nothing but plugins between client and server
